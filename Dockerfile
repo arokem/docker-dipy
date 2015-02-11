@@ -4,4 +4,4 @@ MAINTAINER Ariel Rokem <arokem@gmail.com>
 RUN apt-get update && apt-get install -y python-sklearn \
 python-dipy \
 python-pip
-RUN sudo pip install --upgrade dipy
+RUN pip install --upgrade dipy
